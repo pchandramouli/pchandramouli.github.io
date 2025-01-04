@@ -93,26 +93,27 @@ main {
 #projects ul li {
     line-height: 1.4rem;
 }
-#skills {
+#contact, #skills {
     display: flex;
     margin-bottom: 3rem;
 }
-#skills section {
+#contact section, #skills section {
     width: 100%;
 }
-#skills ul {
+
+#contact ul, #skills ul {
     padding: 0;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     line-height: 2.5rem;
 }
-#skills ul li {
+#contact ul li, #skills ul li {
     display: inline-flex;
-    margin-right: 40px;
+    margin: 0 40px 0 0;
     align-items: center;
 }
-#skills img {
+#contact img, #skills img {
     display: inline-block;
     width: 25px;
     height: 25px;
